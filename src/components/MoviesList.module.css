@@ -1,0 +1,10 @@
+.movies-list h3 {
+  color: white;
+  margin-left: 15px;
+  font-weight: 600;
+  font-size: 1.3vw;
+}
+.movies-list {
+  /* z-index: 9999; */
+  margin-top: 70px;
+}

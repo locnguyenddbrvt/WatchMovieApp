@@ -1,0 +1,90 @@
+.movieslist-component img {
+  width: 100%;
+  border-radius: 5px;
+  height: 100%;
+  /* z-index: unset; */
+}
+.movieslist-component img:hover {
+  border-radius: 5px;
+  cursor: pointer;
+}
+.movieslist-component {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.movieslist-component button {
+  position: absolute;
+  cursor: pointer;
+  height: 100%;
+  width: 3vw;
+  background-color: rgba(0, 0, 0, 0.3);
+  border: none;
+  z-index: 999999;
+}
+.original-sections {
+  height: 400px;
+}
+.orther-sections {
+  height: 200px;
+}
+
+.btn-left {
+  left: 0;
+}
+
+.btn-right {
+  right: 0;
+  top: 0;
+}
+
+.container-movies {
+  overflow-x: hidden;
+  white-space: nowrap;
+  /* position: relative; */
+}
+.movie-element {
+  display: inline-block;
+  margin: auto 15px;
+  border-radius: 5px;
+}
+
+.original-section {
+  width: 12%;
+  margin-top: 30px;
+  /* height: 360px; */
+}
+.orther-section {
+  width: 16%;
+  margin-top: 15px;
+  /* height: 200px; */
+}
+.active {
+  transform: scale(1.1);
+  /* background-color: aqua; */
+}
+/* CSS Movie Detail */
+.ytb-video {
+  padding: 20px 40px;
+  margin-right: 20px;
+}
+.descriptions {
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.descriptions h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  border-bottom: 2px solid white;
+  padding-bottom: 25px;
+}
+.movie-detail-element {
+  color: white;
+  display: grid;
+  grid-template-columns: 8fr 7fr;
+  border-bottom: 1px solid white;
+  background-color: #202020;
+  padding-bottom: 30px;
+}
